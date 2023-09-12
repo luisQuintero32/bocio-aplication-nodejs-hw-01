@@ -1,0 +1,23 @@
+{
+  "name": "tarea-1-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "start:dev": " nodemon index.js",
+    "action": "node index.js --action ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.2"
+  }
+}
